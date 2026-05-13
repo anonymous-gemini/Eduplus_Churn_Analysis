@@ -1,0 +1,19 @@
+Tên Trường,Mô Tả,Kiểu Dữ Liệu,Giá Trị Có Thể
+CustomerID,Mã định danh duy nhất của khách hàng,Integer,"1001, 1002, 1003, ..."
+Age,Tuổi của khách hàng,Integer,18 - 60
+Gender,Giới tính của khách hàng,Categorical,"Male, Female, Other"
+MaritalStatus,Tình trạng hôn nhân của khách hàng,Categorical,"Single, Married, Divorced, Widowed"
+Occupation,Nghề nghiệp của khách hàng,Categorical,"Student, Professional, Self-Employed, Other"
+GeographicLocation,Vị trí địa lý của khách hàng (Thành phố),Categorical,"Hà Nội, TP.HCM, Đà Nẵng, Hải Phòng, Cần Thơ, Nha Trang, Vũng Tàu"
+LoginFrequency,Tần suất đăng nhập của khách hàng (số lần mỗi tuần),Integer,0 - 7
+ContentType,Loại nội dung chính khách hàng xem,Categorical,"Courses, Webinars, Tutorials, Exams"
+AvgWatchTime,Thời lượng xem trung bình mỗi tuần (giờ),Float,1.0 - 20.0
+SubscriptionStartDate,Ngày bắt đầu đăng ký dịch vụ,Date (YYYY-MM-DD),2021-01-01 - 2024-04-30
+PaymentMethod,Phương thức thanh toán,Categorical,"Credit Card, Debit Card, PayPal, Bank Transfer, Other"
+PaymentFrequency,Tần suất thanh toán,Categorical,"Monthly, Quarterly, Yearly"
+LatePaymentCount,Số lần thanh toán trễ hạn,Integer,0 - 5
+ServiceRating,Đánh giá chất lượng dịch vụ (1-5),Integer,"1, 2, 3, 4, 5"
+SupportRequests,Số lần yêu cầu hỗ trợ khách hàng,Integer,0 - 10
+SupportSatisfaction,Mức độ hài lòng sau hỗ trợ (1-5),Integer,"1, 2, 3, 4, 5"
+SurveyFeedback,Phản hồi qua khảo sát,Categorical,"Positive, Neutral, Negative"
+Churned,Trạng thái churn của khách hàng trong nửa đầu năm 2024,Binary,"Yes, No"
